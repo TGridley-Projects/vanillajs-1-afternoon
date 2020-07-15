@@ -11,3 +11,10 @@ function setCard(){
     card.style.color = colorInput.value
     console.log(card);
 }
+
+function resetCard(){
+    hearts.style.color = 'gray'
+    clubs.style.color = 'grey'
+    diamonds.style.color = 'gray'
+    spades.style.color ='grey'
+}
