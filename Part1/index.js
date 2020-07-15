@@ -79,4 +79,12 @@ function play(clickedId){
   }
 }
 
+function boardReset(){
+    for(let i = 0; i<9; i++){
+        let clearedBox = document.getElementById(i)
+        clearedBox.innerText = ""
+        board=[]
+    }
+
+}
        
